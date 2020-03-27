@@ -1,4 +1,4 @@
-package rd.ecommerce.controller;
+package rd.ecommerce.Controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,6 +9,6 @@ public class Controller {
 
     @GetMapping("/saudar")
     public ResponseEntity<String> saudar(){
-        return ResponseEntity.ok().body("Bem-Vindo!");
+        return ResponseEntity.ok().body("Bem vindo");
     }
 }
